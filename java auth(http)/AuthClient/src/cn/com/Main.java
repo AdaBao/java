@@ -13,7 +13,7 @@ import java.net.URL;
 //添加了线程的阻塞代码，以阻止getPasswordAuthentication的继续执行
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		// TODO Auto-generated method stub
 		//AuthWindow window = new AuthWindow();
 		Authenticator.setDefault(new AuthWindow());
