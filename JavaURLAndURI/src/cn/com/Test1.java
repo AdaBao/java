@@ -5,7 +5,7 @@ import java.net.URL;
 
 //URL构造函数测试
 public class Test1{
-    public static void main(String[] args){
+    public static void main(String[] args){ 
         try {
             URL url1=new URL("http://www.google.com");
             //打印结果是“http://www.google.com”
